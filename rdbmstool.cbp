@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rdbmstool" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/rdbmstool" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/rdbmstool" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-pedantic" />
+			<Add option="-std=c++11" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-g" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Binding.h" />
+		<Unit filename="include/Container.h" />
+		<Unit filename="include/ContainerA.h" />
+		<Unit filename="include/Counter.h" />
+		<Unit filename="include/DataWrap.h" />
+		<Unit filename="include/DeleteHandler.h" />
+		<Unit filename="include/DeleteLink.h" />
+		<Unit filename="include/Entry.h" />
+		<Unit filename="include/IContainer.h" />
+		<Unit filename="include/IDeleteLink.h" />
+		<Unit filename="include/IObject.h" />
+		<Unit filename="include/Line.h" />
+		<Unit filename="include/Table.h" />
+		<Unit filename="include/Utility.h" />
+		<Unit filename="include/easylink/data/Database.h" />
+		<Unit filename="include/easylink/data/VirtualTable.h" />
+		<Unit filename="include/easylink/utils/Executor.h" />
+		<Unit filename="include/easylink/utils/Observer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Binding.cpp" />
+		<Unit filename="src/Container.cpp" />
+		<Unit filename="src/ContainerA.cpp" />
+		<Unit filename="src/Counter.cpp" />
+		<Unit filename="src/DataWrap.cpp" />
+		<Unit filename="src/DeleteHandler.cpp" />
+		<Unit filename="src/DeleteLink.cpp" />
+		<Unit filename="src/Entry.cpp" />
+		<Unit filename="src/IContainer.cpp" />
+		<Unit filename="src/IDeleteLink.cpp" />
+		<Unit filename="src/IObject.cpp" />
+		<Unit filename="src/Line.cpp" />
+		<Unit filename="src/Table.cpp" />
+		<Unit filename="src/easylink/data/Database.cpp" />
+		<Unit filename="src/easylink/data/VirtualTable.cpp" />
+		<Unit filename="src/easylink/utils/Executor.cpp" />
+		<Unit filename="src/easylink/utils/Observer.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

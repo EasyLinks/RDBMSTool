@@ -1,0 +1,454 @@
+# depslib dependency file v1.0
+1399351439 source:c:\users\Саня\documents\cpp projects\rdbmstool\main.cpp
+	<iostream>
+	<Table.h>
+	<easylink/data/Database.h>
+
+1396963112 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\container.cpp
+	"Container.h"
+
+1398704770 c:\users\Саня\documents\cpp projects\rdbmstool\include\container.h
+	<string>
+	<iostream>
+	<sstream>
+	<IContainer.h>
+	<IObject.h>
+	<Utility.h>
+	<DataWrap.h>
+
+1395932711 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\utility.cpp
+	"Utility.h"
+
+1396159598 c:\users\Саня\documents\cpp projects\rdbmstool\include\utility.h
+	<iostream>
+	<stdlib.h>
+
+1397649266 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\table.cpp
+	"Table.h"
+
+1399350945 c:\users\Саня\documents\cpp projects\rdbmstool\include\table.h
+	<Line.h>
+	<Entry.h>
+	<easylink/data/VirtualTable.h>
+
+1395896729 source:c:\users\1\documents\cpp projects\rdbmstool\src\container.cpp
+	"Container.h"
+
+1395668115 source:c:\users\1\documents\cpp projects\rdbmstool\src\utility.cpp
+	"Utility.h"
+
+1395902818 source:c:\users\1\documents\cpp projects\rdbmstool\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	"Container.h"
+	"Table.h"
+	<typeinfo>
+	<vector>
+
+1395857984 source:c:\users\1\documents\cpp projects\rdbmstool\src\table.cpp
+	"Table.h"
+
+1395899536 c:\users\1\documents\cpp projects\rdbmstool\include\container.h
+	<typeinfo>
+	<stdlib.h>
+	<iostream>
+	<string>
+	"Utility.h"
+
+1395898931 c:\users\1\documents\cpp projects\rdbmstool\include\utility.h
+	<iostream>
+	<stdlib.h>
+
+1395902396 c:\users\1\documents\cpp projects\rdbmstool\include\table.h
+	"Row.h"
+	"Utility.h"
+	"Container.h"
+	<string>
+	<map>
+	<utility>
+
+1395900995 c:\users\1\documents\cpp projects\rdbmstool\include\row.h
+	"Utility.h"
+	"Container.h"
+	<vector>
+	<typeinfo>
+
+1395855949 source:c:\users\1\documents\cpp projects\rdbmstool\src\row.cpp
+	"Row.h"
+
+1395926534 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\row.cpp
+	"Row.h"
+
+1396973825 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\iobject.cpp
+	"IObject.h"
+	<iostream>
+
+1396964373 c:\users\Саня\documents\cpp projects\rdbmstool\include\iobject.h
+	<string>
+	<map>
+
+1396966077 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\icontainer.cpp
+	"IContainer.h"
+
+1397191641 c:\users\Саня\documents\cpp projects\rdbmstool\include\icontainer.h
+	<typeinfo>
+	<IObject.h>
+	<DataWrap.h>
+
+1397217261 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\containera.cpp
+	"ContainerA.h"
+	<iostream>
+
+1399278171 c:\users\Саня\documents\cpp projects\rdbmstool\include\containera.h
+	<IContainer.h>
+	<Container.h>
+	<typeinfo>
+	<stdio.h>
+
+1397718249 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\line.cpp
+	"Line.h"
+
+1399276895 c:\users\Саня\documents\cpp projects\rdbmstool\include\line.h
+	<map>
+	<vector>
+	<string>
+	<utility>
+	<algorithm>
+	<IContainer.h>
+	<Container.h>
+	<ContainerA.h>
+	<DeleteLink.h>
+	<DeleteHandler.h>
+	<Binding.h>
+	<iostream>
+
+1397145182 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\datawrap.cpp
+	"DataWrap.h"
+
+1397151023 c:\users\Саня\documents\cpp projects\rdbmstool\include\datawrap.h
+	<typeinfo>
+
+1397190418 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\ideletelink.cpp
+	"IDeleteLink.h"
+
+1397193639 c:\users\Саня\documents\cpp projects\rdbmstool\include\ideletelink.h
+
+1397201764 c:\users\Саня\documents\cpp projects\rdbmstool\include\deletelink.h
+	<DeleteHandler.h>
+	<iostream>
+
+1397199741 c:\users\Саня\documents\cpp projects\rdbmstool\include\deletehandler.h
+
+1397199708 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\deletehandler.cpp
+	"DeleteHandler.h"
+
+1397648170 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\entry.cpp
+	"Entry.h"
+
+1399295513 c:\users\Саня\documents\cpp projects\rdbmstool\include\entry.h
+	<ContainerA.h>
+	<Line.h>
+
+1397717887 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\binding.cpp
+	"Binding.h"
+
+1398706241 c:\users\Саня\documents\cpp projects\rdbmstool\include\binding.h
+	<map>
+
+1399272780 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\counter.cpp
+	"Counter.h"
+
+1399275157 c:\users\Саня\documents\cpp projects\rdbmstool\include\counter.h
+
+1397190353 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\deletelink.cpp
+	"DeleteLink.h"
+
+1399274859 c:\users\Саня\documents\cpp projects\rdbmstool\include\easylink\data\virtualtable.h
+	"Binding.h"
+	"ContainerA.h"
+	"Counter.h"
+
+1399274793 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\easylink\data\virtualtable.cpp
+	"easylink/data/VirtualTable.h"
+
+1399279266 source:c:\users\Саня\documents\cpp projects\rdbmstool\src\easylink\data\database.cpp
+	"easylink/data/Database.h"
+
+1399351461 c:\users\Саня\documents\cpp projects\rdbmstool\include\easylink\data\database.h
+	"Table.h"
+	"easylink/data/VirtualTable.h"
+	"Binding.h"
+	<map>
+	<tuple>
+
+1399445048 source:d:\_cpp project\rdbmstool\main.cpp
+	<iostream>
+	<Table.h>
+	<easylink/data/Database.h>
+
+1399357204 d:\_cpp project\rdbmstool\include\table.h
+	<Line.h>
+	<Entry.h>
+	<easylink/data/VirtualTable.h>
+
+1399276895 d:\_cpp project\rdbmstool\include\line.h
+	<map>
+	<vector>
+	<string>
+	<utility>
+	<algorithm>
+	<IContainer.h>
+	<Container.h>
+	<ContainerA.h>
+	<DeleteLink.h>
+	<DeleteHandler.h>
+	<Binding.h>
+	<iostream>
+
+1397191641 d:\_cpp project\rdbmstool\include\icontainer.h
+	<typeinfo>
+	<IObject.h>
+	<DataWrap.h>
+
+1396964373 d:\_cpp project\rdbmstool\include\iobject.h
+	<string>
+	<map>
+
+1397151023 d:\_cpp project\rdbmstool\include\datawrap.h
+	<typeinfo>
+
+1398704770 d:\_cpp project\rdbmstool\include\container.h
+	<string>
+	<iostream>
+	<sstream>
+	<IContainer.h>
+	<IObject.h>
+	<Utility.h>
+	<DataWrap.h>
+
+1396159598 d:\_cpp project\rdbmstool\include\utility.h
+	<iostream>
+	<stdlib.h>
+
+1399278171 d:\_cpp project\rdbmstool\include\containera.h
+	<IContainer.h>
+	<Container.h>
+	<typeinfo>
+	<stdio.h>
+
+1397201764 d:\_cpp project\rdbmstool\include\deletelink.h
+	<DeleteHandler.h>
+	<iostream>
+
+1397199741 d:\_cpp project\rdbmstool\include\deletehandler.h
+
+1398706241 d:\_cpp project\rdbmstool\include\binding.h
+	<map>
+
+1399295513 d:\_cpp project\rdbmstool\include\entry.h
+	<ContainerA.h>
+	<Line.h>
+
+1399274859 d:\_cpp project\rdbmstool\include\easylink\data\virtualtable.h
+	"Binding.h"
+	"ContainerA.h"
+	"Counter.h"
+
+1399275157 d:\_cpp project\rdbmstool\include\counter.h
+
+1399351461 d:\_cpp project\rdbmstool\include\easylink\data\database.h
+	"Table.h"
+	"easylink/data/VirtualTable.h"
+	"Binding.h"
+	<map>
+	<tuple>
+
+1397717887 source:d:\_cpp project\rdbmstool\src\binding.cpp
+	"Binding.h"
+
+1396963112 source:d:\_cpp project\rdbmstool\src\container.cpp
+	"Container.h"
+
+1397217261 source:d:\_cpp project\rdbmstool\src\containera.cpp
+	"ContainerA.h"
+	<iostream>
+
+1399272780 source:d:\_cpp project\rdbmstool\src\counter.cpp
+	"Counter.h"
+
+1397145182 source:d:\_cpp project\rdbmstool\src\datawrap.cpp
+	"DataWrap.h"
+
+1397199708 source:d:\_cpp project\rdbmstool\src\deletehandler.cpp
+	"DeleteHandler.h"
+
+1397190353 source:d:\_cpp project\rdbmstool\src\deletelink.cpp
+	"DeleteLink.h"
+
+1399279266 source:d:\_cpp project\rdbmstool\src\easylink\data\database.cpp
+	"easylink/data/Database.h"
+
+1399274793 source:d:\_cpp project\rdbmstool\src\easylink\data\virtualtable.cpp
+	"easylink/data/VirtualTable.h"
+
+1397648170 source:d:\_cpp project\rdbmstool\src\entry.cpp
+	"Entry.h"
+
+1396966077 source:d:\_cpp project\rdbmstool\src\icontainer.cpp
+	"IContainer.h"
+
+1397190418 source:d:\_cpp project\rdbmstool\src\ideletelink.cpp
+	"IDeleteLink.h"
+
+1397193639 d:\_cpp project\rdbmstool\include\ideletelink.h
+
+1396973825 source:d:\_cpp project\rdbmstool\src\iobject.cpp
+	"IObject.h"
+	<iostream>
+
+1397718249 source:d:\_cpp project\rdbmstool\src\line.cpp
+	"Line.h"
+
+1397649266 source:d:\_cpp project\rdbmstool\src\table.cpp
+	"Table.h"
+
+1397717887 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\binding.cpp
+	"Binding.h"
+
+1398706241 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\binding.h
+	<map>
+
+1396963112 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\container.cpp
+	"Container.h"
+
+1399454514 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\container.h
+	<string>
+	<iostream>
+	<sstream>
+	<IContainer.h>
+	<IObject.h>
+	<Utility.h>
+	<DataWrap.h>
+
+1399458714 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\icontainer.h
+	<typeinfo>
+	<IObject.h>
+	<DataWrap.h>
+
+1396964373 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\iobject.h
+	<string>
+	<map>
+
+1397151023 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\datawrap.h
+	<typeinfo>
+
+1396159598 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\utility.h
+	<iostream>
+	<stdlib.h>
+
+1397217261 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\containera.cpp
+	"ContainerA.h"
+	<iostream>
+
+1399458749 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\containera.h
+	<IContainer.h>
+	<Container.h>
+	<typeinfo>
+	<stdio.h>
+
+1399272780 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\counter.cpp
+	"Counter.h"
+
+1399275157 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\counter.h
+
+1397145182 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\datawrap.cpp
+	"DataWrap.h"
+
+1397199708 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\deletehandler.cpp
+	"DeleteHandler.h"
+
+1397199741 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\deletehandler.h
+
+1397190353 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\deletelink.cpp
+	"DeleteLink.h"
+
+1397201764 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\deletelink.h
+	<DeleteHandler.h>
+	<iostream>
+
+1399279266 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\easylink\data\database.cpp
+	"easylink/data/Database.h"
+
+1399454514 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\easylink\data\database.h
+	"Table.h"
+	"easylink/data/VirtualTable.h"
+	"Binding.h"
+	<map>
+	<tuple>
+
+1399458497 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\table.h
+	<Line.h>
+	<Entry.h>
+	<easylink/data/VirtualTable.h>
+
+1399276895 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\line.h
+	<map>
+	<vector>
+	<string>
+	<utility>
+	<algorithm>
+	<IContainer.h>
+	<Container.h>
+	<ContainerA.h>
+	<DeleteLink.h>
+	<DeleteHandler.h>
+	<Binding.h>
+	<iostream>
+
+1399295513 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\entry.h
+	<ContainerA.h>
+	<Line.h>
+
+1399274859 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\easylink\data\virtualtable.h
+	"Binding.h"
+	"ContainerA.h"
+	"Counter.h"
+
+1399274793 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\easylink\data\virtualtable.cpp
+	"easylink/data/VirtualTable.h"
+
+1397648170 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\entry.cpp
+	"Entry.h"
+
+1396966077 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\icontainer.cpp
+	"IContainer.h"
+
+1397190418 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\ideletelink.cpp
+	"IDeleteLink.h"
+
+1397193639 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\ideletelink.h
+
+1396973825 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\iobject.cpp
+	"IObject.h"
+	<iostream>
+
+1397718249 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\line.cpp
+	"Line.h"
+
+1397649266 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\table.cpp
+	"Table.h"
+
+1399459378 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\main.cpp
+	<iostream>
+	<Table.h>
+	<easylink/data/Database.h>
+	<easylink/utils/Executor.h>
+
+1399459448 c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\include\easylink\utils\executor.h
+	<vector>
+	<iostream>
+
+1399459448 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\easylink\utils\executor.cpp
+	"easylink/utils/Executor.h"
+
