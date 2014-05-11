@@ -105,43 +105,37 @@ public:
             temp->update(upd);
         }
     }
-    template <typename T>
-    int findFirst(std::string field, T key)
+    int findFirst(std::string field, ContainerA& key)
     {
-        ContainerA keyA = ContainerA(key);
         int index = getIndex(field);
         for(int i = 0; i < _lines.size(); ++i)
         {
-            if (_lines.at(i)->get(index)->compare(keyA))
+            if (_lines.at(i)->get(index)->compare(key))
             {
                 return i;
             }
         }
         return -1;
     }
-    template <typename T>
-    int findLast(std::string field, T key)
+    int findLast(std::string field, ContainerA& key)
     {
-        ContainerA keyA = ContainerA(key);
         int index = getIndex(field);
         for(int i = _lines.size(); i > 0; --i)
         {
-            if (_lines.at(i)->get(index)->compare(keyA))
+            if (_lines.at(i)->get(index)->compare(key))
             {
                 return i;
             }
         }
         return -1;
     }
-    template <typename T>
-    std::vector<int> findAll(std::string field, T key)
+    std::vector<int> findAll(std::string field, ContainerA& key)
     {
-        ContainerA keyA = ContainerA(key);
         int index = getIndex(field);
         std::vector<int> result = std::vector<int>();
         for(int i = 0; i < _lines.size(); i++)
         {
-            if (_lines.at(i)->get(index)->compare(keyA))
+            if (_lines.at(i)->get(index)->compare(key))
             {
                 result.push_back(i);
             }

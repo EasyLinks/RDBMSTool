@@ -104,12 +104,17 @@ public:
             return std::string();
         }
     }
+    std::string getString(Table& table, std::string field, int index)
+    {
+        return table.getValue(field, index);
+    }
     template <typename T>
     int findFirst(std::string table, std::string field, T value)
     {
+        ContainerA temp = ContainerA(value);
         try
         {
-            return _tables.at(table)->findFirst(field, value);
+            return _tables.at(table)->findFirst(field, temp);
         }
         catch (...)
         {
@@ -120,9 +125,10 @@ public:
     template <typename T>
     int findLast(std::string table, std::string field, T value)
     {
+        ContainerA temp = ContainerA(value);
         try
         {
-            return _tables.at(table)->findLast(field, value);
+            return _tables.at(table)->findLast(field, temp);
         }
         catch (...)
         {
@@ -133,19 +139,16 @@ public:
     template <typename T>
     std::vector<int> findAll(std::string table, std::string field, T value)
     {
+        ContainerA temp = ContainerA(value);
         try
         {
-            return _tables.at(table)->findAll(field, value);
+            return _tables.at(table)->findAll(field, temp);
         }
         catch (...)
         {
             std::cout << "Exception at findAll(std::string, std::string, T)" << std::endl;
             return std::vector<int>();
         }
-    }
-    bool probe()
-    {
-        return true;
     }
     Table& getReference(std::string table)
     {
