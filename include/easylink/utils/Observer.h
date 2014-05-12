@@ -1,6 +1,12 @@
 #ifndef EASYLINK_UTILS_OBSERVER_H
 #define EASYLINK_UTILS_OBSERVER_H
 
+#include <easylink/utils/Arguments.h>
+#include <easylink/data/Database.h>
+#include <Table.h>
+#include <string>
+#include <map>
+
 namespace easylink {
 namespace utils {
 
@@ -14,19 +20,69 @@ class Observer
             data::Database* temp = new data::Database;
             _databases.emplace(database, temp);
         }
-        bool connect(std::string database);
+        bool connect(std::string database, Arguments& auth)
+        {
+            data::Database* temp;
+            if ((temp = getDatabase(database)) != nullptr)
+            {
+                setDatabase(temp);
+                return true;
+            }
+            return false;
+        }
+        bool selectTable(std::string table)
+        {
+            data::Table* temp;
+            if ((temp = getTable(table)) != nullptr)
+            {
+                setTable(temp);
+                return true;
+            }
+            return false;
+        }
+        data::Database* getDatabase(std::string name)
         {
             try
             {
-                setDatabase(_)
+                return _databases.at(name);
             }
+            catch (...)
+            {
+                return nullptr;
+            }
+        }
+        data::Table* getTable(std::string name)
+        {
+            if (_database != nullptr)
+            {
+                return _database->getReference(name);
+            }
+            else
+            {
+                return nullptr;
+            }
+        }
+        void setDatabase(data::Database& database)
+        {
+            _database = &database;
         }
         void setDatabase(data::Database* database)
         {
             _database = database;
         }
+        void setTable(data::Table& table)
+        {
+            _table = &table;
+        }
+        void setTable(data::Table* table)
+        {
+            _table = table;
+        }
     protected:
         std::map<std::string, data::Database*> _databases;
+        data::Database* _database;
+        data::Table* _table;
+        std::string key;
     private:
 };
 

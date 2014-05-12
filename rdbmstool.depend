@@ -452,3 +452,161 @@
 1399459448 source:c:\users\Владислав\documents\work\Выч. мат. Программирование\База данных c++\bkp\rdbmstool\src\easylink\utils\executor.cpp
 	"easylink/utils/Executor.h"
 
+1397717888 source:d:\flow\remote\rdbmstool\src\binding.cpp
+	"Binding.h"
+
+1398706242 d:\flow\remote\rdbmstool\include\binding.h
+	<map>
+
+1396963114 source:d:\flow\remote\rdbmstool\src\container.cpp
+	"Container.h"
+
+1399454516 d:\flow\remote\rdbmstool\include\container.h
+	<string>
+	<iostream>
+	<sstream>
+	<IContainer.h>
+	<IObject.h>
+	<Utility.h>
+	<DataWrap.h>
+
+1399458716 d:\flow\remote\rdbmstool\include\icontainer.h
+	<typeinfo>
+	<IObject.h>
+	<DataWrap.h>
+
+1396964374 d:\flow\remote\rdbmstool\include\iobject.h
+	<string>
+	<map>
+
+1397151024 d:\flow\remote\rdbmstool\include\datawrap.h
+	<typeinfo>
+
+1396159600 d:\flow\remote\rdbmstool\include\utility.h
+	<iostream>
+	<stdlib.h>
+
+1397217262 source:d:\flow\remote\rdbmstool\src\containera.cpp
+	"ContainerA.h"
+	<iostream>
+
+1399458750 d:\flow\remote\rdbmstool\include\containera.h
+	<IContainer.h>
+	<Container.h>
+	<typeinfo>
+	<stdio.h>
+
+1399272782 source:d:\flow\remote\rdbmstool\src\counter.cpp
+	"Counter.h"
+
+1399275158 d:\flow\remote\rdbmstool\include\counter.h
+
+1397145184 source:d:\flow\remote\rdbmstool\src\datawrap.cpp
+	"DataWrap.h"
+
+1397199710 source:d:\flow\remote\rdbmstool\src\deletehandler.cpp
+	"DeleteHandler.h"
+
+1397199742 d:\flow\remote\rdbmstool\include\deletehandler.h
+
+1397190354 source:d:\flow\remote\rdbmstool\src\deletelink.cpp
+	"DeleteLink.h"
+
+1397201766 d:\flow\remote\rdbmstool\include\deletelink.h
+	<DeleteHandler.h>
+	<iostream>
+
+1399279268 source:d:\flow\remote\rdbmstool\src\easylink\data\database.cpp
+	"easylink/data/Database.h"
+
+1399883861 d:\flow\remote\rdbmstool\include\easylink\data\database.h
+	"Table.h"
+	"easylink/data/VirtualTable.h"
+	"Binding.h"
+	<map>
+	<tuple>
+
+1399815762 d:\flow\remote\rdbmstool\include\table.h
+	<Line.h>
+	<Entry.h>
+	<easylink/data/VirtualTable.h>
+
+1399276896 d:\flow\remote\rdbmstool\include\line.h
+	<map>
+	<vector>
+	<string>
+	<utility>
+	<algorithm>
+	<IContainer.h>
+	<Container.h>
+	<ContainerA.h>
+	<DeleteLink.h>
+	<DeleteHandler.h>
+	<Binding.h>
+	<iostream>
+
+1399295514 d:\flow\remote\rdbmstool\include\entry.h
+	<ContainerA.h>
+	<Line.h>
+
+1399274860 d:\flow\remote\rdbmstool\include\easylink\data\virtualtable.h
+	"Binding.h"
+	"ContainerA.h"
+	"Counter.h"
+
+1399274794 source:d:\flow\remote\rdbmstool\src\easylink\data\virtualtable.cpp
+	"easylink/data/VirtualTable.h"
+
+1399459450 source:d:\flow\remote\rdbmstool\src\easylink\utils\executor.cpp
+	"easylink/utils/Executor.h"
+
+1399463766 d:\flow\remote\rdbmstool\include\easylink\utils\executor.h
+	<vector>
+	<iostream>
+
+1397648172 source:d:\flow\remote\rdbmstool\src\entry.cpp
+	"Entry.h"
+
+1396966078 source:d:\flow\remote\rdbmstool\src\icontainer.cpp
+	"IContainer.h"
+
+1397190420 source:d:\flow\remote\rdbmstool\src\ideletelink.cpp
+	"IDeleteLink.h"
+
+1397193640 d:\flow\remote\rdbmstool\include\ideletelink.h
+
+1396973826 source:d:\flow\remote\rdbmstool\src\iobject.cpp
+	"IObject.h"
+	<iostream>
+
+1397718250 source:d:\flow\remote\rdbmstool\src\line.cpp
+	"Line.h"
+
+1397649268 source:d:\flow\remote\rdbmstool\src\table.cpp
+	"Table.h"
+
+1399459886 source:d:\flow\remote\rdbmstool\main.cpp
+	<iostream>
+	<Table.h>
+	<easylink/data/Database.h>
+	<easylink/utils/Executor.h>
+
+1399881956 source:d:\flow\remote\rdbmstool\src\easylink\utils\arguments.cpp
+	"easylink/utils/Arguments.h"
+
+1399883582 d:\flow\remote\rdbmstool\include\easylink\utils\arguments.h
+	<ContainerA.h>
+	<vector>
+	<map>
+	<string>
+
+1399461374 source:d:\flow\remote\rdbmstool\src\easylink\utils\observer.cpp
+	"easylink/utils/Observer.h"
+
+1399883827 d:\flow\remote\rdbmstool\include\easylink\utils\observer.h
+	<easylink/utils/Arguments.h>
+	<easylink/data/Database.h>
+	<Table.h>
+	<string>
+	<map>
+

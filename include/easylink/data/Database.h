@@ -150,15 +150,15 @@ public:
             return std::vector<int>();
         }
     }
-    Table& getReference(std::string table)
+    Table* getReference(std::string table)
     {
         try
         {
-            return *_tables.at(table);
+            return _tables.at(table);
         }
         catch (...)
         {
-            return Table();
+            return nullptr;
         }
     }
 protected:
