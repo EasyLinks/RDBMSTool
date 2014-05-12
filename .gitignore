@@ -8,6 +8,7 @@ rdbmstool.layout
 ## Eclipse
 #################
 
+*.layout
 *.pydevproject
 .project
 .metadata
