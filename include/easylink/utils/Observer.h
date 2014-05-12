@@ -20,6 +20,14 @@ class Observer
             data::Database* temp = new data::Database;
             _databases.emplace(database, temp);
         }
+        data::Database* getDatabase()
+        {
+            return _database;
+        }
+        data::Table* getTable()
+        {
+            return _table;
+        }
         bool connect(std::string database, Arguments& auth)
         {
             data::Database* temp;
@@ -53,11 +61,11 @@ class Observer
         }
         data::Table* getTable(std::string name)
         {
-            if (_database != nullptr)
+            try
             {
                 return _database->getReference(name);
             }
-            else
+            catch (...)
             {
                 return nullptr;
             }
