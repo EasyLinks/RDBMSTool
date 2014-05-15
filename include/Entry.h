@@ -62,13 +62,13 @@ class Entry
                 return nullptr;
             }
         }
-        Entry duplicate()
+        Entry* duplicate()
         {
-            Entry temp = Entry();
+            Entry* temp = new Entry;
             for (unsigned int i = 0; i < _fields.size(); ++i)
             {
-                temp.addUntypedField();
-                temp.assign(i, temp.get(i));
+                temp->addUntypedField();
+                temp->assign(i, get(i));
             }
             return temp;
         }

@@ -57,9 +57,14 @@ class Linker
                 return std::map<std::string, std::string>();
             }
         }
+        void addConcrete(std::string table, std::string field, int index)
+        {
+
+        }
     protected:
         std::map<std::string, std::map<std::string, std::map<std::string, std::string>>> _relations;
-        std::map<data::ContainerA*, data::ContainerA*> _concrete;
+        std::map<std::pair<data::Entry*, int>, std::map<std::pair<std::string, std::string>, std::pair<data::Entry*, int>>> _concreteRAM;
+        std::map<std::tuple<std::string, int, int>, std::map<std::pair<std::string, std::string>, std::tuple<std::string, int, int>>> _concreteROM;
     private:
 };
 

@@ -51,12 +51,16 @@
 		<Unit filename="include/IDeleteLink.h" />
 		<Unit filename="include/IObject.h" />
 		<Unit filename="include/Line.h" />
+		<Unit filename="include/Number.h" />
 		<Unit filename="include/Table.h" />
 		<Unit filename="include/Utility.h" />
 		<Unit filename="include/easylink/data/Database.h" />
 		<Unit filename="include/easylink/data/VirtualTable.h" />
+		<Unit filename="include/easylink/utils/Arguments.h" />
 		<Unit filename="include/easylink/utils/Executor.h" />
+		<Unit filename="include/easylink/utils/Linker.h" />
 		<Unit filename="include/easylink/utils/Observer.h" />
+		<Unit filename="include/easylink/utils/RegisteredTypesDistinguisher.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Binding.cpp" />
 		<Unit filename="src/Container.cpp" />
@@ -70,11 +74,15 @@
 		<Unit filename="src/IDeleteLink.cpp" />
 		<Unit filename="src/IObject.cpp" />
 		<Unit filename="src/Line.cpp" />
+		<Unit filename="src/Number.cpp" />
 		<Unit filename="src/Table.cpp" />
 		<Unit filename="src/easylink/data/Database.cpp" />
 		<Unit filename="src/easylink/data/VirtualTable.cpp" />
+		<Unit filename="src/easylink/utils/Arguments.cpp" />
 		<Unit filename="src/easylink/utils/Executor.cpp" />
+		<Unit filename="src/easylink/utils/Linker.cpp" />
 		<Unit filename="src/easylink/utils/Observer.cpp" />
+		<Unit filename="src/easylink/utils/RegisteredTypesDistinguisher.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

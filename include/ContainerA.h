@@ -77,7 +77,12 @@ public:
     }
     void setRawData(IContainer* data)
     {
+        if (__initialized__)
+        {
+            delete _container;
+        }
         _container = data;
+        _type = data->getType();
         __initialized__ = true;
     }
     const std::type_info* getType()
@@ -159,15 +164,11 @@ public:
     ContainerA* duplicateA()
     {
         ContainerA* temp = new ContainerA;
-        std::cout << "Everything fine... 1" << std::endl;
         temp->setRawData(_container->duplicate());
-        std::cout << "Everything fine... 2" << std::endl;
         temp->setType(getType());
-        std::cout << "Everything fine... 3" << std::endl;
         if (isRestricted() == false)
         {
             temp->unrestrict();
-            std::cout << "Everything fine... 4" << std::endl;
         }
         return temp;
     }

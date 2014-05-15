@@ -461,7 +461,7 @@
 1396963114 source:d:\flow\remote\rdbmstool\src\container.cpp
 	"Container.h"
 
-1399454516 d:\flow\remote\rdbmstool\include\container.h
+1399906996 d:\flow\remote\rdbmstool\include\container.h
 	<string>
 	<iostream>
 	<sstream>
@@ -470,7 +470,7 @@
 	<Utility.h>
 	<DataWrap.h>
 
-1399458716 d:\flow\remote\rdbmstool\include\icontainer.h
+1399907030 d:\flow\remote\rdbmstool\include\icontainer.h
 	<typeinfo>
 	<IObject.h>
 	<DataWrap.h>
@@ -490,7 +490,7 @@
 	"ContainerA.h"
 	<iostream>
 
-1399458750 d:\flow\remote\rdbmstool\include\containera.h
+1399908656 d:\flow\remote\rdbmstool\include\containera.h
 	<IContainer.h>
 	<Container.h>
 	<typeinfo>
@@ -526,7 +526,7 @@
 	<map>
 	<tuple>
 
-1399815762 d:\flow\remote\rdbmstool\include\table.h
+1399894669 d:\flow\remote\rdbmstool\include\table.h
 	<Line.h>
 	<Entry.h>
 	<easylink/data/VirtualTable.h>
@@ -545,7 +545,7 @@
 	<Binding.h>
 	<iostream>
 
-1399295514 d:\flow\remote\rdbmstool\include\entry.h
+1399893092 d:\flow\remote\rdbmstool\include\entry.h
 	<ContainerA.h>
 	<Line.h>
 
@@ -585,7 +585,7 @@
 1397649268 source:d:\flow\remote\rdbmstool\src\table.cpp
 	"Table.h"
 
-1399891232 source:d:\flow\remote\rdbmstool\main.cpp
+1399907208 source:d:\flow\remote\rdbmstool\main.cpp
 	<iostream>
 	<Table.h>
 	<easylink/data/Database.h>
@@ -615,8 +615,15 @@
 1399885332 source:d:\flow\remote\rdbmstool\src\easylink\utils\linker.cpp
 	"easylink/utils/Linker.h"
 
-1399889122 d:\flow\remote\rdbmstool\include\easylink\utils\linker.h
+1399967693 d:\flow\remote\rdbmstool\include\easylink\utils\linker.h
 	<easylink/data/Database.h>
 	<string>
 	<map>
+
+1399907148 source:d:\flow\remote\rdbmstool\src\easylink\utils\registeredtypesdistinguisher.cpp
+	"easylink/utils/RegisteredTypesDistinguisher.h"
+
+1399967752 d:\flow\remote\rdbmstool\include\easylink\utils\registeredtypesdistinguisher.h
+	"IContainer.h"
+	"ContainerA.h"
 

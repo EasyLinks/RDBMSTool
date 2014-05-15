@@ -1,7 +1,6 @@
 #ifndef TABLE_H
 #define TABLE_H
 
-
 #include <Line.h>
 #include <Entry.h>
 #include <easylink/data/VirtualTable.h>
@@ -42,13 +41,13 @@ public:
     {
         return _header.toString(field);
     }
-    Entry getLine(unsigned int number)
+    Entry* getLine(unsigned int number)
     {
         if (number < _lines.size())
         {
             return _lines.at(number)->duplicate();
         }
-        return Entry();
+        return nullptr;
     }
     std::string getValue(std::string name, int pos)
     {
@@ -141,6 +140,10 @@ public:
             }
         }
         return result;
+    }
+    void loadSelf(std::string path, unsigned int offset)
+    {
+        // Avialiable only when loadSelf methods are implemented for ContainerA, Line, Entry and Container<T> classes.
     }
     int length()
     {

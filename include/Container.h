@@ -30,6 +30,12 @@ public:
         }
         return stringBuffer.str();
     }
+    virtual IContainer* setData(std::string value)
+    {
+        std::stringstream sstream;
+        sstream << value;
+        sstream >> *(Type*)_data;
+    }
     virtual IContainer* setData(easylink::data::DataWrap value)
     {
         if (value.getType() == &typeid(Type))

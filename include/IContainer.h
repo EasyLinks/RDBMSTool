@@ -16,6 +16,7 @@ public:
     }
     virtual bool compare(IContainer& another) = 0;
     virtual std::string toString() = 0;
+    virtual IContainer* setData(std::string value) = 0;
     virtual IContainer* setData(easylink::data::DataWrap value) = 0;
     virtual const std::type_info* getType() = 0;
     virtual IContainer* duplicate() = 0;
