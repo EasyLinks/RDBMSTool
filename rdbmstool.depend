@@ -461,7 +461,7 @@
 1396963114 source:d:\flow\remote\rdbmstool\src\container.cpp
 	"Container.h"
 
-1399906996 d:\flow\remote\rdbmstool\include\container.h
+1400215304 d:\flow\remote\rdbmstool\include\container.h
 	<string>
 	<iostream>
 	<sstream>
@@ -470,7 +470,7 @@
 	<Utility.h>
 	<DataWrap.h>
 
-1399907030 d:\flow\remote\rdbmstool\include\icontainer.h
+1400135194 d:\flow\remote\rdbmstool\include\icontainer.h
 	<typeinfo>
 	<IObject.h>
 	<DataWrap.h>
@@ -490,7 +490,7 @@
 	"ContainerA.h"
 	<iostream>
 
-1399908656 d:\flow\remote\rdbmstool\include\containera.h
+1400173965 d:\flow\remote\rdbmstool\include\containera.h
 	<IContainer.h>
 	<Container.h>
 	<typeinfo>
@@ -519,17 +519,19 @@
 1399279268 source:d:\flow\remote\rdbmstool\src\easylink\data\database.cpp
 	"easylink/data/Database.h"
 
-1399886933 d:\flow\remote\rdbmstool\include\easylink\data\database.h
+1400215365 d:\flow\remote\rdbmstool\include\easylink\data\database.h
 	"Table.h"
 	"easylink/data/VirtualTable.h"
 	"Binding.h"
 	<map>
 	<tuple>
+	<easylink/utils/Linker.h>
 
-1399894669 d:\flow\remote\rdbmstool\include\table.h
+1400174253 d:\flow\remote\rdbmstool\include\table.h
 	<Line.h>
 	<Entry.h>
 	<easylink/data/VirtualTable.h>
+	"easylink/utils/TestModule.h"
 
 1399276896 d:\flow\remote\rdbmstool\include\line.h
 	<map>
@@ -545,7 +547,7 @@
 	<Binding.h>
 	<iostream>
 
-1399893092 d:\flow\remote\rdbmstool\include\entry.h
+1400135194 d:\flow\remote\rdbmstool\include\entry.h
 	<ContainerA.h>
 	<Line.h>
 
@@ -585,7 +587,7 @@
 1397649268 source:d:\flow\remote\rdbmstool\src\table.cpp
 	"Table.h"
 
-1399907208 source:d:\flow\remote\rdbmstool\main.cpp
+1400179521 source:d:\flow\remote\rdbmstool\main.cpp
 	<iostream>
 	<Table.h>
 	<easylink/data/Database.h>
@@ -605,25 +607,45 @@
 1399461374 source:d:\flow\remote\rdbmstool\src\easylink\utils\observer.cpp
 	"easylink/utils/Observer.h"
 
-1399891304 d:\flow\remote\rdbmstool\include\easylink\utils\observer.h
+1400135194 d:\flow\remote\rdbmstool\include\easylink\utils\observer.h
 	<easylink/utils/Arguments.h>
 	<easylink/data/Database.h>
 	<Table.h>
 	<string>
 	<map>
 
-1399885332 source:d:\flow\remote\rdbmstool\src\easylink\utils\linker.cpp
+1400165083 source:d:\flow\remote\rdbmstool\src\easylink\utils\linker.cpp
 	"easylink/utils/Linker.h"
 
-1399967693 d:\flow\remote\rdbmstool\include\easylink\utils\linker.h
+1400215344 d:\flow\remote\rdbmstool\include\easylink\utils\linker.h
 	<easylink/data/Database.h>
-	<string>
+	<Table.h>
+	<Entry.h>
 	<map>
 
-1399907148 source:d:\flow\remote\rdbmstool\src\easylink\utils\registeredtypesdistinguisher.cpp
+1400135194 source:d:\flow\remote\rdbmstool\src\easylink\utils\registeredtypesdistinguisher.cpp
 	"easylink/utils/RegisteredTypesDistinguisher.h"
 
-1399967752 d:\flow\remote\rdbmstool\include\easylink\utils\registeredtypesdistinguisher.h
+1400135194 d:\flow\remote\rdbmstool\include\easylink\utils\registeredtypesdistinguisher.h
 	"IContainer.h"
 	"ContainerA.h"
+
+1400135194 source:d:\flow\remote\rdbmstool\src\number.cpp
+	"Number.h"
+
+1400165722 d:\flow\remote\rdbmstool\include\number.h
+	<string>
+	<sstream>
+
+1400173747 d:\flow\remote\rdbmstool\include\easylink\utils\testmodule.h
+	<ContainerA.h>
+
+1400173501 source:d:\flow\remote\rdbmstool\src\easylink\utils\conditional\equalitycompare.cpp
+	"easylink/utils/conditional/EqualityCompare.h"
+
+1400174298 d:\flow\remote\rdbmstool\include\easylink\utils\conditional\equalitycompare.h
+	"easylink/utils/TestModule.h"
+
+1400173276 source:d:\flow\remote\rdbmstool\src\easylink\utils\testmodule.cpp
+	"easylink/utils/TestModule.h"
 

@@ -6,6 +6,7 @@
 #include "Binding.h"
 #include <map>
 #include <tuple>
+#include <easylink/utils/Linker.h>
 
 namespace easylink
 {
@@ -163,6 +164,7 @@ public:
     }
 protected:
     std::map<std::string, Table*> _tables;
+    utils::Linker _relations;
 private:
 };
 

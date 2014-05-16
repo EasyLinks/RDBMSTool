@@ -141,6 +141,14 @@ public:
         _type = another.getType();
         return *this;
     }
+    bool operator == (ContainerA& another)
+    {
+        return compare(another);
+    }
+    bool operator != (ContainerA& another)
+    {
+        return (compare(another)?false:true);
+    }
     bool compare(ContainerA& another)
     {
         return _container->compare(*another.duplicate());

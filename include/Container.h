@@ -35,6 +35,7 @@ public:
         std::stringstream sstream;
         sstream << value;
         sstream >> *(Type*)_data;
+        return this;
     }
     virtual IContainer* setData(easylink::data::DataWrap value)
     {

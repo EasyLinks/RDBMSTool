@@ -61,6 +61,8 @@
 		<Unit filename="include/easylink/utils/Linker.h" />
 		<Unit filename="include/easylink/utils/Observer.h" />
 		<Unit filename="include/easylink/utils/RegisteredTypesDistinguisher.h" />
+		<Unit filename="include/easylink/utils/TestModule.h" />
+		<Unit filename="include/easylink/utils/conditional/EqualityCompare.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Binding.cpp" />
 		<Unit filename="src/Container.cpp" />
@@ -83,6 +85,8 @@
 		<Unit filename="src/easylink/utils/Linker.cpp" />
 		<Unit filename="src/easylink/utils/Observer.cpp" />
 		<Unit filename="src/easylink/utils/RegisteredTypesDistinguisher.cpp" />
+		<Unit filename="src/easylink/utils/TestModule.cpp" />
+		<Unit filename="src/easylink/utils/conditional/EqualityCompare.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -1,37 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="include\Table.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\easylink\utils\Arguments.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="520" topLine="12" />
+			<Cursor1 position="418" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\DeleteLink.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\Entry.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1591" topLine="39" />
-		</Cursor>
-	</File>
-	<File name="include\IObject.h" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="668" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4187" topLine="53" />
-		</Cursor>
-	</File>
-	<File name="include\easylink\utils\Executor.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\easylink\utils\Executor.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="230" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\DeleteHandler.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\easylink\utils\Linker.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="281" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Table.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3071" topLine="105" />
+		</Cursor>
+	</File>
+	<File name="include\easylink\utils\Observer.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1605" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="include\Number.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="75" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\easylink\utils\RegisteredTypesDistinguisher.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1085" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\easylink\utils\conditional\EqualityCompare.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="455" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Counter.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="327" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2671" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="include\easylink\data\Database.h" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4294" topLine="145" />
+		</Cursor>
+	</File>
+	<File name="include\DataWrap.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
@@ -41,29 +66,9 @@
 			<Cursor1 position="261" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\IDeleteLink.h" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\ContainerA.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\IContainer.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="618" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="include\easylink\utils\Arguments.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="418" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\easylink\data\Database.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4200" topLine="95" />
-		</Cursor>
-	</File>
-	<File name="src\Counter.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="62" topLine="0" />
+			<Cursor1 position="455" topLine="7" />
 		</Cursor>
 	</File>
 	<File name="src\ContainerA.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -71,19 +76,34 @@
 			<Cursor1 position="215" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\easylink\utils\RegisteredTypesDistinguisher.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\IObject.h" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1224" topLine="26" />
+			<Cursor1 position="668" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\Binding.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\Counter.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="250" topLine="20" />
+			<Cursor1 position="62" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\Container.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\Line.h" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="814" topLine="8" />
+			<Cursor1 position="779" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="include\DeleteLink.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Entry.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1591" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="include\IDeleteLink.h" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src\Entry.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -91,29 +111,14 @@
 			<Cursor1 position="219" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src\IContainer.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="118" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\easylink\utils\Linker.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1898" topLine="46" />
-		</Cursor>
-	</File>
-	<File name="src\IObject.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="109" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src\Line.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="71" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="include\easylink\data\VirtualTable.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="804" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\IContainer.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="118" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include\Utility.h" open="0" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -121,14 +126,34 @@
 			<Cursor1 position="352" topLine="9" />
 		</Cursor>
 	</File>
-	<File name="include\Counter.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include\DeleteHandler.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="327" topLine="0" />
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\easylink\utils\Observer.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\IObject.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1605" topLine="58" />
+			<Cursor1 position="109" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Binding.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="250" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="src\Line.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="71" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Container.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="831" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="include\IContainer.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="618" topLine="1" />
 		</Cursor>
 	</File>
 	<File name="src\easylink\utils\Executor.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -136,19 +161,9 @@
 			<Cursor1 position="151" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include\DataWrap.h" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\easylink\utils\Linker.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\ContainerA.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1905" topLine="41" />
-		</Cursor>
-	</File>
-	<File name="include\Line.h" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="779" topLine="17" />
+			<Cursor1 position="378" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

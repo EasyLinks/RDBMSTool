@@ -4,6 +4,7 @@
 #include <Line.h>
 #include <Entry.h>
 #include <easylink/data/VirtualTable.h>
+#include "easylink/utils/TestModule.h"
 
 namespace easylink
 {
@@ -116,17 +117,17 @@ public:
         }
         return -1;
     }
-    int findLast(std::string field, ContainerA& key)
+    Entry* findLast(std::string field, ContainerA& key, utils::TestModule* condition = nullptr)
     {
         int index = getIndex(field);
         for(int i = _lines.size(); i > 0; --i)
         {
             if (_lines.at(i)->get(index)->compare(key))
             {
-                return i;
+                return _lines.at(i);
             }
         }
-        return -1;
+        return nullptr;
     }
     std::vector<int> findAll(std::string field, ContainerA& key)
     {

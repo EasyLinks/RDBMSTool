@@ -1,16 +1,23 @@
 #ifndef NUMBER_H
 #define NUMBER_H
 
+#include <string>
+#include <sstream>
+
+static const std::string _NaN = "NaN";
+static const std::string _undefined = "undefined";
+static const std::string _InfinityP = "+Infinity";
+static const std::string _InfinityN = "-Infinity";
 
 class Number
 {
     public:
-        static const std::string _NaN = "NaN";
-        static const std::string _undefined = "undefined";
-        static const std::string _InfinityP = "+Infinity";
-        static const std::string _InfinityN = "-Infinity";
         Number();
         virtual ~Number();
+        Number(long double value)
+        {
+            _value = value;
+        }
         bool isNaN()
         {
             return (currentState != normal);
@@ -19,58 +26,57 @@ class Number
         {
             return (currentState == undefined);
         }
-        auto value() -> decltype(_value)
+        long double value()
         {
+            if (isNaN()) return 0;
             return float(_value);
         }
-        Number& operator == (Number& another)
+        bool operator == (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return false;
+            if ((isNaN()) || (another.isNaN())) return false;
             return (value() == another.value());
         }
-        Number& operator != (Number& another)
+        bool operator != (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return true;
+            if ((isNaN()) || (another.isNaN())) return true;
             return (value() != another.value());
         }
-        Number& operator > (Number& another)
+        bool operator > (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return false;
+            if ((isNaN()) || (another.isNaN())) return false;
             return (value() > another.value());
         }
-        Number& operator < (Number& another)
+        bool operator < (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return false;
+            if ((isNaN()) || (another.isNaN())) return false;
             return (value() < another.value());
         }
-        Number& operator >= (Number& another)
+        bool operator >= (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return false;
+            if ((isNaN()) || (another.isNaN())) return false;
             return (value() >= another.value());
         }
-        Number& operator <= (Number& another)
+        bool operator <= (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return false;
+            if ((isNaN()) || (another.isNaN())) return false;
             return (value() <= another.value());
         }
         Number& operator = (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return *this;
+            if ((isNaN()) || (another.isNaN())) return *this;
             _value = another.value();
             return *this;
         }
-        Number& operator + (Number& another)
+        Number operator + (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return false;
-            Number temp = Number();
-            temp = _value += another.value();
-            return *this;
+            if ((isNaN()) || (another.isNaN())) return Number(_value);
+            Number temp = Number(_value + another.value());
+            return temp;
         }
-        Number& operator - (Number& another)
+        Number operator - (Number& another)
         {
-            if ((isNaN) || (another.isNaN())) return false;
-            Number temp = Number();
-            temp = *this;
+            if ((isNaN()) || (another.isNaN())) return Number(_value);
+            Number temp = Number(_value + another.value());
             return temp;
         }
         Number& operator ++ ()
@@ -95,7 +101,7 @@ class Number
         }
         Number& operator / (Number& another)
         {
-            _value
+
         }
         std::string toString()
         {
