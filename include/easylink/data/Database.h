@@ -6,7 +6,7 @@
 #include "Binding.h"
 #include <map>
 #include <tuple>
-#include <easylink/utils/Linker.h>
+#include "easylink/utils/Linker.h"
 
 namespace easylink
 {
@@ -109,48 +109,6 @@ public:
     {
         return table.getValue(field, index);
     }
-    template <typename T>
-    int findFirst(std::string table, std::string field, T value)
-    {
-        ContainerA temp = ContainerA(value);
-        try
-        {
-            return _tables.at(table)->findFirst(field, temp);
-        }
-        catch (...)
-        {
-            std::cout << "Exception at findFirst(std::string, std::string, T)" << std::endl;
-            return -1;
-        }
-    }
-    template <typename T>
-    int findLast(std::string table, std::string field, T value)
-    {
-        ContainerA temp = ContainerA(value);
-        try
-        {
-            return _tables.at(table)->findLast(field, temp);
-        }
-        catch (...)
-        {
-            std::cout << "Exception at findLast(std::string, std::string, T)" << std::endl;
-            return -1;
-        }
-    }
-    template <typename T>
-    std::vector<int> findAll(std::string table, std::string field, T value)
-    {
-        ContainerA temp = ContainerA(value);
-        try
-        {
-            return _tables.at(table)->findAll(field, temp);
-        }
-        catch (...)
-        {
-            std::cout << "Exception at findAll(std::string, std::string, T)" << std::endl;
-            return std::vector<int>();
-        }
-    }
     Table* getReference(std::string table)
     {
         try
@@ -164,7 +122,7 @@ public:
     }
 protected:
     std::map<std::string, Table*> _tables;
-    utils::Linker _relations;
+    easylink::utils::Linker _relations;
 private:
 };
 

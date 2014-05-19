@@ -14,6 +14,15 @@ class Linker
     public:
         Linker();
         virtual ~Linker();
+        void addLink(std::string fromTable, std::string fromField, std::string toTable, std::string toField)
+        {
+            _relations.writeBuffer("from_table", fromTable);
+            _relations.writeBuffer("from_field", fromField);
+            _relations.writeBuffer("to_table", toTable);
+            _relations.writeBuffer("to_field", toField);
+            _relations.flush();
+
+        }
     protected:
         data::Table _relations;
         std::map<data::Entry*, std::map<int, data::Entry*>> _concreteRAM;

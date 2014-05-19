@@ -54,6 +54,10 @@ int main()
 #endif // SECTION_1
 //#define SECTION_2
 #ifndef SECTION_2
+    std::vector<std::string> A = std::vector<std::string>();
+    A.push_back(std::string("Hello, world!"));
+    std::vector<std::string> B = std::vector<std::string>();
+    std::cout << typeid(A).name() << " --- " << typeid(B).name() << std::endl;
     utils::Arguments args = utils::Arguments();
     utils::Observer beholder = utils::Observer();
     beholder.createDatabase("mydb");

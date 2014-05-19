@@ -5,6 +5,7 @@
 #include <Entry.h>
 #include <easylink/data/VirtualTable.h>
 #include "easylink/utils/TestModule.h"
+#include "easylink/utils/Arguments.h"
 
 namespace easylink
 {
@@ -105,46 +106,46 @@ public:
             temp->update(upd);
         }
     }
-    int findFirst(std::string field, ContainerA& key)
+    Entry* findFirst(std::string field, ContainerA& key, utils::TestModule* condition)
     {
         int index = getIndex(field);
-        for(int i = 0; i < _lines.size(); ++i)
+        for(unsigned int i = 0; i < _lines.size(); ++i)
         {
-            if (_lines.at(i)->get(index)->compare(key))
-            {
-                return i;
-            }
-        }
-        return -1;
-    }
-    Entry* findLast(std::string field, ContainerA& key, utils::TestModule* condition = nullptr)
-    {
-        int index = getIndex(field);
-        for(int i = _lines.size(); i > 0; --i)
-        {
-            if (_lines.at(i)->get(index)->compare(key))
+            if (condition->checkCondition(_lines.at(i)->get(index), &key));
             {
                 return _lines.at(i);
             }
         }
         return nullptr;
     }
-    std::vector<int> findAll(std::string field, ContainerA& key)
+    Entry* findLast(std::string field, ContainerA& key, utils::TestModule* condition = nullptr)
     {
         int index = getIndex(field);
-        std::vector<int> result = std::vector<int>();
-        for(int i = 0; i < _lines.size(); i++)
+        for(int i = _lines.size(); i > 0; --i)
         {
-            if (_lines.at(i)->get(index)->compare(key))
+            if (condition->checkCondition(_lines.at(i)->get(index), &key));
             {
-                result.push_back(i);
+                return _lines.at(i);
+            }
+        }
+        return nullptr;
+    }
+    std::vector<Entry*> findAll(std::string field, ContainerA& key, utils::TestModule* condition)
+    {
+        int index = getIndex(field);
+        std::vector<Entry*> result = std::vector<Entry*>();
+        for(unsigned int i = 0; i < _lines.size(); i++)
+        {
+            if (condition->checkCondition(_lines.at(i)->get(index), &key));
+            {
+                result.push_back(_lines.at(i));
             }
         }
         return result;
     }
-    void loadSelf(std::string path, unsigned int offset)
+    void setAttributes(utils::Arguments attributes)
     {
-        // Avialiable only when loadSelf methods are implemented for ContainerA, Line, Entry and Container<T> classes.
+
     }
     int length()
     {
