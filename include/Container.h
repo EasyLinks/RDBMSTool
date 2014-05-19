@@ -30,7 +30,7 @@ public:
         }
         return stringBuffer.str();
     }
-    virtual IContainer* setData(std::string value)
+    virtual IContainer* distinguishData(std::string value)
     {
         std::stringstream sstream;
         sstream << value;

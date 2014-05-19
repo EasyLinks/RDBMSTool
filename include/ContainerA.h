@@ -81,7 +81,7 @@ public:
         {
             delete _container;
         }
-        _container = data;
+        _container = data->duplicate();
         _type = data->getType();
         __initialized__ = true;
     }

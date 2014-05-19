@@ -26,14 +26,17 @@ public:
     }
     void flush()
     {
-        Entry* temp = new Entry();
-        for (int i = 0; i < _indices.length(); ++i)
+        if (validate())
         {
-            temp->addUntypedField();
-            temp->assign(i, _indices.reverse(i));
+            Entry* temp = new Entry();
+            for (int i = 0; i < _indices.length(); ++i)
+            {
+                temp->addUntypedField();
+                temp->assign(i, _indices.reverse(i));
+            }
+            _lines.push_back(temp);
+            _header.clear();
         }
-        _lines.push_back(temp);
-        _header.clear();
     }
     template <typename T> void writeBuffer(std::string name, T data)
     {
@@ -42,6 +45,10 @@ public:
     std::string readBuffer(std::string field)
     {
         return _header.toString(field);
+    }
+    ContainerA* getBuffer(std::string field)
+    {
+        return _header.getReference(field);
     }
     Entry* getLine(unsigned int number)
     {
@@ -143,9 +150,23 @@ public:
         }
         return result;
     }
+    bool validate()
+    {
+        std::vector<data::ContainerA> required = _attributes.get<std::string>("required");
+        std::vector<data::ContainerA> counters = _attributes.get<std::string>("counter");
+        for (auto iter = required.begin(); iter != required.end(); ++iter)
+        {
+            if (getBuffer(iter->toString())->isInitialized() == false) return false;
+        }
+        for (auto iter = counters.begin(); iter != counters.end(); ++iter)
+        {
+            if (getBuffer(iter->toString())->isInitialized() == true) return false;
+        }
+        return true;
+    }
     void setAttributes(utils::Arguments attributes)
     {
-
+        _attributes = attributes;
     }
     int length()
     {
@@ -155,6 +176,7 @@ protected:
     Line _header;
     std::vector<Entry*> _lines;
     easylink::data::VirtualTable _indices;
+    easylink::utils::Arguments _attributes;
 private:
 };
 }

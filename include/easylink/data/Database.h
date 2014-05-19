@@ -12,7 +12,6 @@ namespace easylink
 {
 namespace data
 {
-
 class Database
 {
 public:
@@ -122,7 +121,7 @@ public:
     }
 protected:
     std::map<std::string, Table*> _tables;
-    easylink::utils::Linker _relations;
+    utils::Linker _relations;
 private:
 };
 

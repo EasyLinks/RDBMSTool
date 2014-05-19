@@ -1,7 +1,6 @@
 #ifndef EASYLINK_UTILS_LINKER_H
 #define EASYLINK_UTILS_LINKER_H
 
-#include <easylink/data/Database.h>
 #include <Table.h>
 #include <Entry.h>
 #include <map>

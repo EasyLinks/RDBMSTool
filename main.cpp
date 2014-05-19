@@ -54,10 +54,11 @@ int main()
 #endif // SECTION_1
 //#define SECTION_2
 #ifndef SECTION_2
-    std::vector<std::string> A = std::vector<std::string>();
-    A.push_back(std::string("Hello, world!"));
-    std::vector<std::string> B = std::vector<std::string>();
-    std::cout << typeid(A).name() << " --- " << typeid(B).name() << std::endl;
+    data::ContainerA A = data::ContainerA(std::string("Hello, world"));
+    data::ContainerA B;
+    utils::Arguments properties = utils::Arguments();
+    properties.set<std::string>("counter", "id");
+    B.assign(A);
     utils::Arguments args = utils::Arguments();
     utils::Observer beholder = utils::Observer();
     beholder.createDatabase("mydb");
@@ -83,8 +84,9 @@ int main()
     users->writeBuffer<std::string>("middle_name", "Jurievich");
     std::cout << "Buffer written." << std::endl;
     users->flush();
+    data::Entry* concrete = users->getLine(users->length() - 1);
     std::cout << "Flushed." << std::endl;
-    std::cout << "id: " << users->getValue("id", 0) << " | first_name: " << users->get("first_name", 0).toString() << " | second_name: " << users->get("second_name", 0).toString() << " | middle_name: " << users->get("middle_name", 0).toString() << std::endl;
+    std::cout << "id: " << concrete->toString(users->getIndex("id")) << " | first_name: " << concrete->toString(users->getIndex("first_name")) << " | second_name: " << concrete->toString(users->getIndex("second_name")) << " | middle_name: " << concrete->toString(users->getIndex("middle_name")) << std::endl;
 #endif // SECTION_2
     return 0;
 }

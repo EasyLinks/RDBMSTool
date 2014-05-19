@@ -21,16 +21,18 @@ class Arguments
             temp->setData(value);
             _values.emplace(name, temp);
         }
-        data::ContainerA get(std::string name)
+        template <typename Type>
+        std::vector<data::ContainerA> get(std::string name)
         {
-            try
+            std::vector<data::ContainerA> result = std::vector<data::ContainerA>();
+            for (auto iter = _values.begin(); iter != _values.end(); ++iter)
             {
-                return *_values.at(name);
+                if ((std::get<0>(*iter) == name) && (std::get<1>(*iter)->getType() == &typeid(Type)))
+                {
+                    result.push_back(*std::get<1>(*iter));
+                }
             }
-            catch (...)
-            {
-                return data::ContainerA();
-            }
+            return result;
         }
         std::vector<std::string> names()
         {
@@ -41,8 +43,16 @@ class Arguments
             }
             return temp;
         }
+        Arguments& operator = (Arguments& another)
+        {
+            auto targetNames = another.names();
+            for (auto iter = targetNames.begin(); iter != targetNames.end(); ++iter)
+            {
+                //_values.emplace(*iter, another.get(*iter));
+            }
+        }
     protected:
-        std::map<std::string, data::ContainerA*> _values;
+        std::multimap<std::string, data::ContainerA*> _values;
     private:
 };
 
