@@ -55,8 +55,43 @@ int main()
 //#define SECTION_2
 #ifndef SECTION_2
     data::ContainerA A = data::ContainerA(std::string("Hello, world"));
-    data::ContainerA B;
-    utils::Arguments properties = utils::Arguments();
+    data::ContainerA B = data::ContainerA(std::string("Hello, world!"));
+    std::cout << "STRING" << '\n'
+              << "A = " << A.toString() << " B = " << B.toString() << '\n'
+              << "A == B: " << (A == B) << '\n'
+              << "A != B: " << (A != B) << '\n'
+              << "A < B:  " << (A < B) << '\n'
+              << "B < A:  " << (B < A) << '\n'
+              << "A > B:  " << (A > B) << '\n'
+              << "B > A:  " << (B > A) << '\n'
+              << "A <= B:  " << (A <= B) << '\n'
+              << "A >= B:  " << (A >= B) << '\n';
+    A.setData(int(1));
+    B.setData(int(2));
+    std::cout << "INT" << '\n'
+              << "A = " << A.toString() << " B = " << B.toString() << '\n'
+              << "A == B: " << (A == B) << '\n'
+              << "A != B: " << (A != B) << '\n'
+              << "A < B:  " << (A < B) << '\n'
+              << "B < A:  " << (B < A) << '\n'
+              << "A > B:  " << (A > B) << '\n'
+              << "B > A:  " << (B > A) << '\n'
+              << "A <= B:  " << (A <= B) << '\n'
+              << "A >= B:  " << (A >= B) << '\n';
+    A.setData(float(1));
+    B.setData(float(2));
+    std::cout << "FLOAT" << '\n'
+              << "A = " << A.toString() << " B = " << B.toString() << '\n'
+              << "A == B: " << (A == B) << '\n'
+              << "A != B: " << (A != B) << '\n'
+              << "A < B:  " << (A < B) << '\n'
+              << "B < A:  " << (B < A) << '\n'
+              << "A > B:  " << (A > B) << '\n'
+              << "B > A:  " << (B > A) << '\n'
+              << "A <= B:  " << (A <= B) << '\n'
+              << "A >= B:  " << (A >= B) << '\n';
+
+    /*utils::Arguments properties = utils::Arguments();
     properties.set<std::string>("counter", "id");
     B.assign(A);
     utils::Arguments args = utils::Arguments();
@@ -86,7 +121,10 @@ int main()
     users->flush();
     data::Entry* concrete = users->getLine(users->length() - 1);
     std::cout << "Flushed." << std::endl;
-    std::cout << "id: " << concrete->toString(users->getIndex("id")) << " | first_name: " << concrete->toString(users->getIndex("first_name")) << " | second_name: " << concrete->toString(users->getIndex("second_name")) << " | middle_name: " << concrete->toString(users->getIndex("middle_name")) << std::endl;
+    std::cout << "id: " << concrete->toString(users->getIndex("id"))
+              << " | first_name: " << concrete->toString(users->getIndex("first_name"))
+              << " | second_name: " << concrete->toString(users->getIndex("second_name"))
+              << " | middle_name: " << concrete->toString(users->getIndex("middle_name")) << std::endl;*/
 #endif // SECTION_2
     return 0;
 }

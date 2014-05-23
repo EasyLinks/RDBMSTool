@@ -149,9 +149,41 @@ public:
     {
         return (compare(another)?false:true);
     }
+    bool operator < (ContainerA& another)
+    {
+        return lessThan(another);
+    }
+    bool operator > (ContainerA& another)
+    {
+        return greaterThan(another);
+    }
+    bool operator <= (ContainerA& another)
+    {
+        return lessEquality(another);
+    }
+    bool operator >= (ContainerA& another)
+    {
+        return greaterEquality(another);
+    }
     bool compare(ContainerA& another)
     {
         return _container->compare(*another.duplicate());
+    }
+    bool lessThan(ContainerA& another)
+    {
+        return _container->lessThan(*another.duplicate());
+    }
+    bool greaterThan(ContainerA& another)
+    {
+        return _container->greaterThan(*another.duplicate());
+    }
+    bool lessEquality(ContainerA& another)
+    {
+        return _container->lessEquality(*another.duplicate());
+    }
+    bool greaterEquality(ContainerA& another)
+    {
+        return _container->greaterEquality(*another.duplicate());
     }
     void update(ContainerA& another)
     {

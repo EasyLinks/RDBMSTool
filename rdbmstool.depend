@@ -649,3 +649,200 @@
 1400173276 source:d:\flow\remote\rdbmstool\src\easylink\utils\testmodule.cpp
 	"easylink/utils/TestModule.h"
 
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\binding.cpp
+	"Binding.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\binding.h
+	<map>
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\container.cpp
+	"Container.h"
+
+1400524686 c:\users\Владислав\documents\github\rdbmstool\include\container.h
+	<string>
+	<iostream>
+	<sstream>
+	<IContainer.h>
+	<IObject.h>
+	<Utility.h>
+	<DataWrap.h>
+
+1400524548 c:\users\Владислав\documents\github\rdbmstool\include\icontainer.h
+	<typeinfo>
+	<IObject.h>
+	<DataWrap.h>
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\iobject.h
+	<string>
+	<map>
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\datawrap.h
+	<typeinfo>
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\utility.h
+	<iostream>
+	<stdlib.h>
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\containera.cpp
+	"ContainerA.h"
+	<iostream>
+
+1400524653 c:\users\Владислав\documents\github\rdbmstool\include\containera.h
+	<IContainer.h>
+	<Container.h>
+	<typeinfo>
+	<stdio.h>
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\counter.cpp
+	"Counter.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\counter.h
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\datawrap.cpp
+	"DataWrap.h"
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\deletehandler.cpp
+	"DeleteHandler.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\deletehandler.h
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\deletelink.cpp
+	"DeleteLink.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\deletelink.h
+	<DeleteHandler.h>
+	<iostream>
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\data\database.cpp
+	"easylink/data/Database.h"
+
+1400520543 c:\users\Владислав\documents\github\rdbmstool\include\easylink\data\database.h
+	"Table.h"
+	"easylink/data/VirtualTable.h"
+	"Binding.h"
+	<map>
+	<tuple>
+	"easylink/utils/Linker.h"
+
+1400520543 c:\users\Владислав\documents\github\rdbmstool\include\table.h
+	<Line.h>
+	<Entry.h>
+	<easylink/data/VirtualTable.h>
+	"easylink/utils/TestModule.h"
+	"easylink/utils/Arguments.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\line.h
+	<map>
+	<vector>
+	<string>
+	<utility>
+	<algorithm>
+	<IContainer.h>
+	<Container.h>
+	<ContainerA.h>
+	<DeleteLink.h>
+	<DeleteHandler.h>
+	<Binding.h>
+	<iostream>
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\entry.h
+	<ContainerA.h>
+	<Line.h>
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\easylink\data\virtualtable.h
+	"Binding.h"
+	"ContainerA.h"
+	"Counter.h"
+
+1400520543 c:\users\Владислав\documents\github\rdbmstool\include\easylink\utils\testmodule.h
+	<ContainerA.h>
+
+1400520543 c:\users\Владислав\documents\github\rdbmstool\include\easylink\utils\arguments.h
+	<ContainerA.h>
+	<vector>
+	<map>
+	<string>
+
+1400520543 c:\users\Владислав\documents\github\rdbmstool\include\easylink\utils\linker.h
+	<Table.h>
+	<Entry.h>
+	<map>
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\data\virtualtable.cpp
+	"easylink/data/VirtualTable.h"
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\utils\arguments.cpp
+	"easylink/utils/Arguments.h"
+
+1400520543 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\utils\conditional\equalitycompare.cpp
+	"easylink/utils/conditional/EqualityCompare.h"
+
+1400525817 c:\users\Владислав\documents\github\rdbmstool\include\easylink\utils\conditional\equalitycompare.h
+	"easylink/utils/TestModule.h"
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\utils\executor.cpp
+	"easylink/utils/Executor.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\easylink\utils\executor.h
+	<vector>
+	<iostream>
+
+1400520543 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\utils\linker.cpp
+	"easylink/utils/Linker.h"
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\utils\observer.cpp
+	"easylink/utils/Observer.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\easylink\utils\observer.h
+	<easylink/utils/Arguments.h>
+	<easylink/data/Database.h>
+	<Table.h>
+	<string>
+	<map>
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\utils\registeredtypesdistinguisher.cpp
+	"easylink/utils/RegisteredTypesDistinguisher.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\easylink\utils\registeredtypesdistinguisher.h
+	"IContainer.h"
+	"ContainerA.h"
+
+1400520543 source:c:\users\Владислав\documents\github\rdbmstool\src\easylink\utils\testmodule.cpp
+	"easylink/utils/TestModule.h"
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\entry.cpp
+	"Entry.h"
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\icontainer.cpp
+	"IContainer.h"
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\ideletelink.cpp
+	"IDeleteLink.h"
+
+1400519964 c:\users\Владислав\documents\github\rdbmstool\include\ideletelink.h
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\iobject.cpp
+	"IObject.h"
+	<iostream>
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\line.cpp
+	"Line.h"
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\number.cpp
+	"Number.h"
+
+1400520543 c:\users\Владислав\documents\github\rdbmstool\include\number.h
+	<string>
+	<sstream>
+
+1400519964 source:c:\users\Владислав\documents\github\rdbmstool\src\table.cpp
+	"Table.h"
+
+1400524350 source:c:\users\Владислав\documents\github\rdbmstool\main.cpp
+	<iostream>
+	<Table.h>
+	<easylink/data/Database.h>
+	<easylink/utils/Executor.h>
+	<easylink/utils/Observer.h>
+	<easylink/utils/Arguments.h>
+

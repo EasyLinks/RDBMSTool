@@ -70,6 +70,50 @@ public:
             return false;
         }
     }
+    virtual bool lessThan(IContainer& another)
+    {
+        if (getType() == another.getType())
+        {
+            return *(Type*)_data < *(Type*)another.getData();
+        }
+        else
+        {
+            return false;
+        }
+    }
+    virtual bool greaterThan(IContainer& another)
+    {
+        if (getType() == another.getType())
+        {
+            return *(Type*)_data > *(Type*)another.getData();
+        }
+        else
+        {
+            return false;
+        }
+    }
+    virtual bool lessEquality(IContainer& another)
+    {
+        if (getType() == another.getType())
+        {
+            return *(Type*)_data <= *(Type*)another.getData();
+        }
+        else
+        {
+            return false;
+        }
+    }
+    virtual bool greaterEquality(IContainer& another)
+    {
+        if (getType() == another.getType())
+        {
+            return *(Type*)_data >= *(Type*)another.getData();
+        }
+        else
+        {
+            return false;
+        }
+    }
 protected:
 private:
 };

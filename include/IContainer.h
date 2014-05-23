@@ -15,6 +15,10 @@ public:
         return _data;
     }
     virtual bool compare(IContainer& another) = 0;
+    virtual bool lessThan(IContainer& another) = 0;
+    virtual bool greaterThan(IContainer& another) = 0;
+    virtual bool lessEquality(IContainer& another) = 0;
+    virtual bool greaterEquality(IContainer& another) = 0;
     virtual std::string toString() = 0;
     virtual IContainer* distinguishData(std::string value) = 0;
     virtual IContainer* setData(easylink::data::DataWrap value) = 0;
